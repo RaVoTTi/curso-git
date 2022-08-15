@@ -1,5 +1,18 @@
+body{
+    background-color: bisque;
+}
 h1 {
     color: red;
-    font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.navbar{
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+img{
+    max-height: 40px;         
 }
