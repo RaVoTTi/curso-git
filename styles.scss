@@ -1,18 +1,42 @@
 body{
-    background-color: bisque;
+    background-color: #1d2127;
+    font-family: 'Overpass Mono', monospace;
+    padding: 0;
+    margin: 0;
+    color: #fff;
 }
 h1 {
-    color: red;
-
+    color: #fff;
+    padding-top: 8px ;
+    margin-left: 10px;
 }
 .navbar{
     height: 40px;
     width: 100%;
-    background-color: green;
+    background-color: #464b55;
     display: flex;
-    gap: 1rem;
+    padding: 10px;
+    flex-direction: row;
     align-items: center;
 }
 img{
-    max-height: 40px;         
+    height: 40px;         
+}
+.container{
+    margin-top: 30px;
+    padding: 0 60px 0 60px;
+
+}
+.post{
+    background-color: #282c34;
+    margin-top: 15px;
+    padding: 5px 20px;
+    border-radius: 10px;
+
+    & h4{
+        color: #98c379;
+    }
+    & span {
+        color: #61afef;
+    }
 }
