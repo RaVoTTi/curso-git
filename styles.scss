@@ -1,5 +1,5 @@
 body{
-    background-color: green;
+    background-color: #1d2127;
     font-family: 'Overpass Mono', monospace;
     padding: 0;
     margin: 0;
@@ -13,7 +13,7 @@ h1 {
 .navbar{
     height: 40px;
     width: 100%;
-    background-color: red;
+    background-color: #464b55;
     display: flex;
     padding: 10px;
     flex-direction: row;
@@ -21,7 +21,7 @@ h1 {
 }
 img{
     height: 40px;        
-    background-color: wheat; 
+    background-color: #98c379; 
 }
 .container{
     margin-top: 30px;
@@ -29,7 +29,7 @@ img{
 
 }
 .post{
-    background-color: wheat;
+    background-color: #282c34;
     margin-top: 15px;
     padding: 5px 20px;
     border-radius: 10px;
@@ -38,6 +38,6 @@ img{
         color: #98c379;
     }
     & span {
-        color: hotpink;
+        color: #61afef;
     }
 }
